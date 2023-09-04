@@ -13,7 +13,7 @@ import java.util.List;
 @Repository
 public class SecurityUser {
 
-
+/**
     private final List<UserDetails> APPLICATION_USERS = Arrays.asList(
             new User(
                     "",
@@ -34,6 +34,8 @@ public class SecurityUser {
                 .findFirst()
                 .orElseThrow(() -> new UsernameNotFoundException("no user was found "));
     }
+**/
+
 }
 
 
