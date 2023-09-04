@@ -16,12 +16,12 @@ public class SecurityUser {
 
     private final List<UserDetails> APPLICATION_USERS = Arrays.asList(
             new User(
-                    "rambo",
-                    "1234",
+                    "",
+                    "",
                     Collections.singleton(new SimpleGrantedAuthority("ROLE_ADMIN"))),
             new User(
-                        "bill",
-                    "1234",
+                        "",
+                    "",
                     Collections.singleton(new SimpleGrantedAuthority("ROLE_USER"))
 
             )
